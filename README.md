@@ -20,23 +20,54 @@ DentPanX-AI is intended for research and educational use. The reported results r
 
 ## Reproducibility
 
-The reproducibility materials include:
+Lightweight reproducibility materials are available under `reproducibility/`, including:
 
-- frozen train/validation/test split assignments and metadata,
-- archived training configurations,
-- seed-specific evaluation results,
-- validation-only confidence-threshold selection materials,
-- image-level bootstrap outputs,
-- precision-recall curves and selected evaluation figures,
-- SHA-256 integrity manifests,
-- a minimal automated smoke test with expected outputs.
+- frozen split metadata and dataset configuration,
+- recorded reproduction-environment metadata,
+- seed-level independent-test summaries,
+- class-level performance summaries,
+- validation-only confidence-threshold metadata,
+- fixed-threshold image-level bootstrap summaries,
+- a minimal automated inference smoke test with archived expected outputs.
 
-The full source dataset is not redistributed in this repository.
+See:
+
+- [REPRODUCIBILITY.md](REPRODUCIBILITY.md)
+- [ARCHIVE_CONTENTS.md](ARCHIVE_CONTENTS.md)
+- [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md)
+- [draft v1.0.0 release notes](RELEASE_NOTES_v1.0.0.md)
+
+The full MOPG-7 source dataset is not redistributed in this repository.
+
+## Model and binary archive
+
+Large binary and complete archived materials, including the deployment checkpoint and full reproducibility package, are intended for the versioned v1.0.0 archive/DOI record rather than normal Git tracking.
+
+Recorded deployment-checkpoint SHA-256:
+
+`6e32bba3e966a0cf3017eed68940395371f9ec9bf4813b0b13456a41c58d4861`
+
+## Licensing and reuse
+
+The source-code repository is released under the GNU Affero General Public License v3.0. See [LICENSE](LICENSE).
+
+Additional reuse information is provided in:
+
+- [MODEL_NOTICE.md](MODEL_NOTICE.md)
+- [DATASET_NOTICE.md](DATASET_NOTICE.md)
+
+These notices distinguish source-code licensing from terms that may apply to model weights, pretrained components, and the source dataset.
 
 ## Release status
 
-This repository is being prepared for the versioned v1.0.0 reproducibility release associated with the manuscript revision.
+This repository is being prepared for the versioned `v1.0.0` reproducibility release associated with the manuscript revision.
+
+Before the release is frozen, the actual application source/launch files and the final binary archive still need to be imported from the local reproducibility package.
 
 ## Citation
 
-Citation metadata and an archived DOI will be added with the versioned release.
+Citation metadata are available in [CITATION.cff](CITATION.cff). The archived DOI will be added after the v1.0.0 release is deposited.
+
+## Research-use statement
+
+DentPanX-AI is a research prototype. It is not intended to provide patient-level diagnosis, treatment recommendations, or clinical decision support without further external, prospective, usability, and regulatory evaluation.
