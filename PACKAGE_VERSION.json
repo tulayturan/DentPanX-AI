@@ -1,0 +1,17 @@
+{
+  "package_name": "DentPanX-AI Reproducibility Package",
+  "package_version": "1.0.0",
+  "status": "revision reproducibility package",
+  "created_for": "BMC Oral Health manuscript revision",
+  "contains_training": false,
+  "contains_full_source_dataset": false,
+  "contains_minimal_test_case": true,
+  "contains_automated_smoke_test": true,
+  "smoke_test_reference_image": "0000568.jpg",
+  "smoke_test_expected_detections": 6,
+  "smoke_test_expected_classes": {
+    "Wisdom Teeth": 4,
+    "Dental Crown": 1,
+    "Root Canal": 1
+  }
+}
