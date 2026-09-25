@@ -1,0 +1,13 @@
+path: /content/MOPG_AI_clean_work/dataset_split
+train: images/train
+val: images/val
+test: images/test
+nc: 7
+names:
+  0: Missing
+  1: Dental Crown
+  2: Root Canal
+  3: Caries
+  4: Broken Down
+  5: Wisdom Teeth
+  6: Healthy
