@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use DentPanX-AI in research, please cite this software release and the associated manuscript."
+title: "DentPanX-AI: A Software System for Multi-Class Dental Finding Detection in Panoramic Radiographs"
+type: software
+authors:
+  - family-names: "TURAN"
+    given-names: "Gökhan"
+version: "1.0.0"
+license: "AGPL-3.0-only"
+repository-code: "https://github.com/tulayturan/DentPanX-AI"
+abstract: >-
+  DentPanX-AI is research software integrating an RT-DETR-L object detector
+  for seven MOPG-7 dataset-defined dental finding categories in panoramic
+  radiographs. The repository includes versioned reproducibility materials,
+  frozen data split assignments, archived training configurations,
+  evaluation outputs, uncertainty-analysis materials, integrity checks,
+  and a minimal automated smoke test.
+keywords:
+  - artificial intelligence
+  - panoramic radiography
+  - dental imaging
+  - object detection
+  - RT-DETR
+  - reproducibility
