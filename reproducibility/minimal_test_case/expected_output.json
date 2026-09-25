@@ -1,0 +1,55 @@
+{
+  "test_image": "0000568.jpg",
+  "purpose": "Minimal deterministic functional test case based on an archived validation prediction manifest.",
+  "model_checkpoint": "DentPanX_AI_RTDETR_L_best.pt",
+  "model_sha256": "6e32bba3e966a0cf3017eed68940395371f9ec9bf4813b0b13456a41c58d4861",
+  "input_size": 640,
+  "confidence_threshold": 0.55,
+  "matching_iou_threshold_used_in_study": 0.5,
+  "maximum_detections": 300,
+  "test_image_sha256": "e44c7a85886b07d9757d8aa7f24ebcf08031b8d0e362268f399f59a077d09c78",
+  "expected_number_of_detections": 6,
+  "expected_class_counts": {
+    "Wisdom Teeth": 4,
+    "Dental Crown": 1,
+    "Root Canal": 1
+  },
+  "expected_detections": [
+    {
+      "class_id": 5,
+      "class_name": "Wisdom Teeth",
+      "confidence": 0.793503,
+      "bbox_xyxy": [1040.656250, 295.889557, 1115.280029, 355.557465]
+    },
+    {
+      "class_id": 5,
+      "class_name": "Wisdom Teeth",
+      "confidence": 0.792722,
+      "bbox_xyxy": [343.658997, 300.636475, 416.454559, 370.756287]
+    },
+    {
+      "class_id": 5,
+      "class_name": "Wisdom Teeth",
+      "confidence": 0.782007,
+      "bbox_xyxy": [1088.644043, 491.595856, 1171.381836, 569.841797]
+    },
+    {
+      "class_id": 5,
+      "class_name": "Wisdom Teeth",
+      "confidence": 0.776919,
+      "bbox_xyxy": [301.695374, 500.225891, 380.394562, 575.869080]
+    },
+    {
+      "class_id": 1,
+      "class_name": "Dental Crown",
+      "confidence": 0.744519,
+      "bbox_xyxy": [731.563477, 422.829803, 774.556580, 458.737030]
+    },
+    {
+      "class_id": 2,
+      "class_name": "Root Canal",
+      "confidence": 0.728252,
+      "bbox_xyxy": [741.120850, 351.851501, 761.440674, 416.254547]
+    }
+  ]
+}
