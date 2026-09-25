@@ -32,5 +32,5 @@
 - [ ] regenerate SHA256SUMS.csv after the archive is frozen
 - [ ] verify whether the minimal MOPG-7 source image may be redistributed; omit it if redistribution is uncertain
 - [x] create GitHub tag/release `v1.0.0`
-- [ ] archive the release in Zenodo and obtain a DOI
-- [ ] add the Zenodo DOI to CITATION.cff, README, manuscript, and reviewer response
+- [x] archive the release in Zenodo and obtain a DOI
+- [x] add the Zenodo DOI to CITATION.cff and README; manuscript and reviewer response pending final revision text
