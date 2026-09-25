@@ -31,6 +31,6 @@
 - [ ] include full evaluation/PR/confusion-matrix and bootstrap-distribution materials in the DOI archive
 - [ ] regenerate SHA256SUMS.csv after the archive is frozen
 - [ ] verify whether the minimal MOPG-7 source image may be redistributed; omit it if redistribution is uncertain
-- [ ] create GitHub tag/release `v1.0.0`
+- [x] create GitHub tag/release `v1.0.0`
 - [ ] archive the release in Zenodo and obtain a DOI
 - [ ] add the Zenodo DOI to CITATION.cff, README, manuscript, and reviewer response
