@@ -1,0 +1,51 @@
+{
+  "method": "Exact-capacity, source-aware, multilabel greedy stratification",
+  "split_seed": 42,
+  "number_of_candidates": 100,
+  "selected_candidate_number": 1,
+  "global_split_targets": {
+    "train": 1466,
+    "val": 314,
+    "test": 315
+  },
+  "source_group_quotas": {
+    "numeric_only": {
+      "train": 1003,
+      "val": 215,
+      "test": 215
+    },
+    "ibn": {
+      "train": 373,
+      "val": 80,
+      "test": 80
+    },
+    "nir": {
+      "train": 80,
+      "val": 17,
+      "test": 17
+    },
+    "h": {
+      "train": 10,
+      "val": 2,
+      "test": 3
+    }
+  },
+  "stratification_indicators": [
+    "Missing",
+    "Dental Crown",
+    "Root Canal",
+    "Caries",
+    "Broken Down",
+    "Wisdom Teeth",
+    "Healthy",
+    "No annotations",
+    "1–2 annotations",
+    "3–5 annotations",
+    "6–10 annotations",
+    "More than 10 annotations"
+  ],
+  "maximum_class_prevalence_difference_percentage_points": 0.7720574307686476,
+  "mean_class_prevalence_difference_percentage_points": 0.3450475427763669,
+  "split_assignment_sha256": "f3f7c3fc55cce7a7b4d2c82feb30663e1a578b14df84fb5d05698fc6f1d5069e",
+  "exact_duplicate_groups": 0
+}
