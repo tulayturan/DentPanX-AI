@@ -61,7 +61,7 @@ These notices distinguish source-code licensing from terms that may apply to mod
 
 ## Release status
 
-This repository is being prepared for the versioned `v1.0.0` reproducibility release associated with the manuscript revision.
+The versioned `v1.0.0` reproducibility release associated with the manuscript revision has been published: https://github.com/tulayturan/DentPanX-AI/releases/tag/v1.0.0
 
 The application source code and launch scripts are now version-controlled under `application/`. The deployment checkpoint and other large binary materials remain reserved for the versioned release/DOI archive.
 
