@@ -1,0 +1,28 @@
+{
+  "application_name": "DentPanX-AI",
+  "architecture": "RT-DETR-L",
+  "input_resolution": 640,
+  "default_confidence_threshold": 0.55,
+  "matching_iou_threshold": 0.5,
+  "checkpoint_seed": 2026,
+  "checkpoint_validation_map50_95": 0.30456,
+  "class_names": {
+    "0": "Missing",
+    "1": "Dental Crown",
+    "2": "Root Canal",
+    "3": "Caries",
+    "4": "Broken Down",
+    "5": "Wisdom Teeth",
+    "6": "Healthy"
+  },
+  "model_selection_data": "Validation partition only",
+  "threshold_selection_data": "Validation partition only",
+  "independent_test_used_for_selection": false,
+  "intended_use": "Research and educational use for detecting seven annotated dental finding classes in panoramic radiographs.",
+  "clinical_status": "Research prototype. Not validated or approved for autonomous diagnosis, clinical screening, treatment planning, or replacement of a dentist.",
+  "important_limitation": "The model does not provide ICDAS staging or caries severity classification.",
+  "software_name": "DentPanX-AI",
+  "software_version": "1.0",
+  "full_title": "DentPanX-AI: A Software System for Multi-Class Dental Finding Detection in Panoramic Radiographs",
+  "development_dataset": "MOPG-7"
+}
