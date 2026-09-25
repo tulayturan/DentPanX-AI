@@ -36,6 +36,7 @@ See:
 - [ARCHIVE_CONTENTS.md](ARCHIVE_CONTENTS.md)
 - [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md)
 - [draft v1.0.0 release notes](RELEASE_NOTES_v1.0.0.md)
+- [installation and exact release environment](INSTALLATION.md)
 
 The full MOPG-7 source dataset is not redistributed in this repository.
 
@@ -62,7 +63,7 @@ These notices distinguish source-code licensing from terms that may apply to mod
 
 This repository is being prepared for the versioned `v1.0.0` reproducibility release associated with the manuscript revision.
 
-Before the release is frozen, the actual application source/launch files and the final binary archive still need to be imported from the local reproducibility package.
+The application source code and launch scripts are now version-controlled under `application/`. The deployment checkpoint and other large binary materials remain reserved for the versioned release/DOI archive.
 
 ## Citation
 
