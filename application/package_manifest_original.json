@@ -1,0 +1,24 @@
+{
+  "package_name": "DentPanX_AI_v1.0",
+  "application_name": "DentPanX-AI",
+  "software_version": "1.0",
+  "article_title": "DentPanX-AI: A Software System for Multi-Class Dental Finding Detection in Panoramic Radiographs",
+  "created_at_unix": 1786011970.1276317,
+  "model_architecture": "RT-DETR-L",
+  "model_file": "model/best.pt",
+  "model_size_mb": 63.173,
+  "development_dataset": "MOPG-7",
+  "application_files": [
+    ".streamlit/config.toml",
+    "README.md",
+    "__pycache__/app.cpython-312.pyc",
+    "app.py",
+    "install_and_run_linux_macos.sh",
+    "install_and_run_windows.bat",
+    "model/best.pt",
+    "model/model_metadata.json",
+    "requirements.txt",
+    "run_windows.bat"
+  ],
+  "note": "This manifest is retained as an archival record of the original packaged application. __pycache__ is not tracked in the public Git repository, and the model checkpoint is distributed through the versioned binary archive."
+}
