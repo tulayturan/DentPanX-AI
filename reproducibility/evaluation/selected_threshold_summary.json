@@ -1,0 +1,12 @@
+{
+  "selected_confidence_threshold": 0.55,
+  "matching_iou_threshold": 0.5,
+  "selection_metric": "Micro F1",
+  "validation_micro_precision": 0.7072987208427389,
+  "validation_micro_recall": 0.6351351351351351,
+  "validation_micro_f1": 0.6692773228907084,
+  "validation_macro_f1": 0.6723343476052994,
+  "threshold_selection_rule": "The global confidence threshold was selected by maximizing micro F1 on the validation partition at a class-aware matching IoU threshold of 0.50.",
+  "threshold_selected_using_validation_only": true,
+  "independent_test_used_for_threshold_selection": false
+}
