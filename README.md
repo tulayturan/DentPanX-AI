@@ -1,5 +1,7 @@
 # DentPanX-AI
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22955972.svg)](https://doi.org/10.5281/zenodo.22955972)
+
 DentPanX-AI is a research software system for multi-class dental finding detection in panoramic radiographs using an RT-DETR-L detector.
 
 The repository accompanies a manuscript submitted to *BMC Oral Health* and is intended to support transparent, versioned, and verifiable research reuse.
@@ -42,7 +44,7 @@ The full MOPG-7 source dataset is not redistributed in this repository.
 
 ## Model and binary archive
 
-Large binary and complete archived materials, including the deployment checkpoint and full reproducibility package, are intended for the versioned v1.0.0 archive/DOI record rather than normal Git tracking.
+Large binary and complete archived materials, including the deployment checkpoint and full reproducibility package, are preserved in the versioned Zenodo v1.0.0 archive: [10.5281/zenodo.22955972](https://doi.org/10.5281/zenodo.22955972).
 
 Recorded deployment-checkpoint SHA-256:
 
@@ -67,7 +69,10 @@ The application source code and launch scripts are now version-controlled under 
 
 ## Citation
 
-Citation metadata are available in [CITATION.cff](CITATION.cff). The archived DOI will be added after the v1.0.0 release is deposited.
+Citation metadata are available in [CITATION.cff](CITATION.cff).
+
+- Version-specific DOI (v1.0.0): [10.5281/zenodo.22955972](https://doi.org/10.5281/zenodo.22955972)
+- Concept DOI (all versions): [10.5281/zenodo.22955971](https://doi.org/10.5281/zenodo.22955971)
 
 ## Research-use statement
 
