@@ -6,8 +6,12 @@ authors:
   - family-names: "TURAN"
     given-names: "Gökhan"
 version: "1.0.0"
+doi: "10.5281/zenodo.22955972"
+date-released: "2026-09-25"
 license: "AGPL-3.0-only"
 repository-code: "https://github.com/tulayturan/DentPanX-AI"
+repository-artifact: "https://github.com/tulayturan/DentPanX-AI/releases/tag/v1.0.0"
+url: "https://doi.org/10.5281/zenodo.22955972"
 abstract: >-
   DentPanX-AI is research software integrating an RT-DETR-L object detector
   for seven MOPG-7 dataset-defined dental finding categories in panoramic
