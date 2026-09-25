@@ -1,0 +1,61 @@
+{
+  "test_name": "DentPanX-AI minimal inference smoke test",
+  "input_image": "0000568.jpg",
+  "confidence_threshold": 0.55,
+  "input_size": 640,
+  "maximum_detections": 300,
+  "expected_detection_count": 6,
+  "actual_detection_count": 6,
+  "expected_class_counts": {
+    "Wisdom Teeth": 4,
+    "Dental Crown": 1,
+    "Root Canal": 1
+  },
+  "actual_class_counts": {
+    "Wisdom Teeth": 4,
+    "Dental Crown": 1,
+    "Root Canal": 1
+  },
+  "localization_matches": [
+    {
+      "class_name": "Wisdom Teeth",
+      "iou": 1.0,
+      "expected_confidence": 0.793502688407898,
+      "actual_confidence": 0.793502688407898
+    },
+    {
+      "class_name": "Wisdom Teeth",
+      "iou": 1.0,
+      "expected_confidence": 0.7927224636077881,
+      "actual_confidence": 0.7927224636077881
+    },
+    {
+      "class_name": "Wisdom Teeth",
+      "iou": 1.0,
+      "expected_confidence": 0.7820072770118713,
+      "actual_confidence": 0.7820072770118713
+    },
+    {
+      "class_name": "Wisdom Teeth",
+      "iou": 0.9999996122249939,
+      "expected_confidence": 0.7769190073013306,
+      "actual_confidence": 0.7769190669059753
+    },
+    {
+      "class_name": "Dental Crown",
+      "iou": 0.9999966004028522,
+      "expected_confidence": 0.7445194721221924,
+      "actual_confidence": 0.744519054889679
+    },
+    {
+      "class_name": "Root Canal",
+      "iou": 0.9999999999999993,
+      "expected_confidence": 0.7282524108886719,
+      "actual_confidence": 0.7282523512840271
+    }
+  ],
+  "count_pass": true,
+  "class_composition_pass": true,
+  "localization_pass": true,
+  "overall_pass": true
+}
