@@ -24,11 +24,11 @@
 
 ## Still required before publishing v1.0.0
 
-- [ ] import the actual DentPanX-AI application source files and launch scripts
-- [ ] add the final exact dependency snapshot from the archived package
+- [x] import the actual DentPanX-AI application source files and launch scripts
+- [x] add the final exact v1.0.0 release dependency snapshot
 - [ ] place the deployment checkpoint in the versioned binary archive
-- [ ] include full split assignments and complete archived run configuration files
-- [ ] include full evaluation/PR/confusion-matrix and bootstrap-distribution materials
+- [x] include complete archived run configuration files in GitHub; retain full split assignments in the binary reproducibility archive
+- [ ] include full evaluation/PR/confusion-matrix and bootstrap-distribution materials in the DOI archive
 - [ ] regenerate SHA256SUMS.csv after the archive is frozen
 - [ ] verify whether the minimal MOPG-7 source image may be redistributed; omit it if redistribution is uncertain
 - [ ] create GitHub tag/release `v1.0.0`
