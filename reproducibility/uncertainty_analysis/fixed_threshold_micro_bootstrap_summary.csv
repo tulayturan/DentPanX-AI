@@ -1,0 +1,4 @@
+metric,estimate,ci_lower_95,ci_upper_95,bootstrap_replicates
+Micro precision,0.709302,0.672738,0.742226,5000
+Micro recall,0.642528,0.607723,0.675222,5000
+Micro F1,0.674266,0.640908,0.704569,5000
