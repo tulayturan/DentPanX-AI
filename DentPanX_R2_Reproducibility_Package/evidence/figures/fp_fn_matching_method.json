@@ -1,0 +1,7 @@
+{
+  "confidence_threshold": 0.55,
+  "matching_iou": 0.5,
+  "matching": "Class-aware, one-to-one greedy matching in descending prediction confidence order; highest-IoU unmatched eligible reference selected.",
+  "purpose": "Candidate identification for illustrative FP/FN figures",
+  "reference": "Dataset annotations; no independent clinical adjudication"
+}

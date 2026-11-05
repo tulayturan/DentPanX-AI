@@ -1,0 +1,15 @@
+{
+  "method": "image-level nonparametric percentile bootstrap",
+  "replicates": 5000,
+  "images_per_replicate": 315,
+  "seed": 20261103,
+  "input_sha256": "d3d50851f6c3a8e564185a5cd4792109f8de9b03d244efab2ca20f35961d0c4c",
+  "ultralytics": "8.4.115",
+  "confidence_interval_percentiles": [
+    2.5,
+    97.5
+  ],
+  "class_absence_rule": "Class AP is undefined when no reference instance of that class is sampled; excluded from that class's percentile CI.",
+  "map_rule": "Seven-class mAP is calculated only for replicates containing reference instances of all seven classes.",
+  "valid_map_replicates": 5000
+}

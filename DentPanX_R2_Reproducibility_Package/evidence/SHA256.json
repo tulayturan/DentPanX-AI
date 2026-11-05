@@ -1,0 +1,11 @@
+{
+  "bootstrap/AP_mAP_bootstrap_95CI.csv": "7a89d1c96af1efa8ea9996f505e27550f25d7166524d90fff272839119088c39",
+  "bootstrap/bootstrap_method.json": "d119866e293cc8d2a998fb964c67e0be64a7f9ea27b4ed93fa08dd8b6dd0fc71",
+  "bootstrap/image_level_bootstrap_inputs.npz": "d3d50851f6c3a8e564185a5cd4792109f8de9b03d244efab2ca20f35961d0c4c",
+  "figures/Supplementary_Figure_S1.pdf": "5139079eb94226e19eff6173ac484009e3b9472a46b20d3a7e05774715b9da9b",
+  "figures/Supplementary_Figure_S1_300dpi.png": "78f8a3d0f0166165616479e4a676d7c128861b9774969a09932e37d80cba20bf",
+  "figures/coordinate_validation.json": "c9e4458ee11a81f06a3829acf60f3858dee5cb2e1cf04153c03611278fbe598b",
+  "figures/direct_normalized_boxes.npz": "c88353437221e0a18f40ed37847879f84cc34fdb1c30a68b109f44b9d0e0f068",
+  "figures/final_selected_examples.csv": "d91057284259d3f2f0c0c580e79632d3a253d38e355598a92482c9e004ff7f2f",
+  "figures/fp_fn_matching_method.json": "3ae096d5bce34ba66c49fff7513b15127ab9be8b46fdb75feb3c946bb00382dc"
+}

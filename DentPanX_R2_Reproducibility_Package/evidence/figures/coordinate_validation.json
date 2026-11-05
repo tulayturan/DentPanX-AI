@@ -1,0 +1,22 @@
+{
+  "images": 315,
+  "annotations": 1519,
+  "annotations_per_class": [
+    411,
+    282,
+    305,
+    225,
+    130,
+    132,
+    34
+  ],
+  "background_images": 4,
+  "maximum_reference_coordinate_difference": 1.3370513918253835e-07,
+  "map50": 0.6755318157587847,
+  "map50_95": 0.2938901249619186,
+  "difference_map50": 0.0,
+  "difference_map50_95": 1.7441789124106322e-09,
+  "previous_metrics_match_atol_1e_6": true,
+  "coordinate_source": "RTDETRValidator prepared input-space boxes",
+  "normalization": "xyxy divided by input width, height, width, height"
+}
